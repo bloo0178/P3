@@ -39,5 +39,6 @@ app.listen(port, function () {
 });
 
 //npm install ... modules (add dotenv, nodemon)
-//use nodemon file.js to start live monitoring
+//set root to cd\github\p3
+//use nodemon server.js to start live monitoring
 //ctrl+c to stop
