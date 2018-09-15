@@ -38,4 +38,6 @@ app.listen(port, function () {
   console.log('Node.js listening ....');
 });
 
+//npm install ... modules (add dotenv, nodemon)
 //use nodemon file.js to start live monitoring
+//ctrl+c to stop
