@@ -4,6 +4,8 @@ var express = require('express');
 var mongo = require('mongodb');
 var mongoose = require('mongoose');
 
+require('dotenv').config();
+
 var cors = require('cors');
 
 var app = express();
@@ -33,5 +35,7 @@ app.get("/api/hello", function (req, res) {
 
 
 app.listen(port, function () {
-  console.log('Node.js listening ...');
+  console.log('Node.js listening ....');
 });
+
+//use nodemon file.js to start live monitoring
