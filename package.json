@@ -12,7 +12,7 @@
 		"dotenv": "^6.0.0",
 		"express": "^5.0.0-alpha.6",
 		"mongodb": "^2.2.36",
-		"mongoose": "^4.13.17",
+		"mongoose": "^4.10.8",
 		"nodemon": "^1.18.4"
 	},
 	"engines": {
